@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.7.5",
-    "airtable": "^1.8.1",
+    "airtable": "^1.7.2",
     "clsx": "^1.2.1",
     "date-fns": "^2.30.0",
     "next": "14.1.0",
