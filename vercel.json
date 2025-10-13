@@ -1,6 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "ignoreCommand": ,
   "installCommand": "npm install --legacy-peer-deps"
 }
