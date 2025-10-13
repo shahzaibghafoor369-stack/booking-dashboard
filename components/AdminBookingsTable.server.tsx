@@ -4,8 +4,9 @@ import { format } from "date-fns";
 
 export default async function AdminBookingsTable(){
   const bookings = await getBookings();
-  const agents = await getAgents();
-  const agentMap = new Map(agents.map((a:any) => [a.id, a]));
+const agents = await getAgents();
+const agentsData = Array.isArray(agents) ? agents : [];
+const agentMap = new Map(agentsData.map((a: any) => [a.id, a]));
 
   return (
     <div className="mt-6">
