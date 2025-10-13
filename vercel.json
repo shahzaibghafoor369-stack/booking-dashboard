@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "ignoreCommand": "echo 'Skipping cache'",
+  "ignoreCommand": ,
   "installCommand": "npm install --legacy-peer-deps"
 }
